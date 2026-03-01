@@ -1,0 +1,30 @@
+{
+  "name": "aegis-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "latest",
+    "axios": "^1.13.6",
+    "lucide-react": "^0.575.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hot-toast": "^2.6.0",
+    "viem": "latest",
+    "wagmi": "latest",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@wagmi/cli": "latest",
+    "typescript": "latest"
+  }
+}
